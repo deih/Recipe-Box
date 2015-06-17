@@ -1,0 +1,17 @@
+1. Git
+2. Haml
+3. Recipes Controller
+4. Routes recipes + root
+5. Recipes/index + index/view
+6. Creating and showing new recipes:
+	* #show + #create + private find_recipe + before_action
+	* make #create + #new working. Also add recipe_params. + if @recipe.save
+	* Model: Recipe - title - description - user_id
+	* Creating new.html.haml + _form.html.haml
+		- adding simple_form gem before creating it
+	* Creating show.html.haml
+	* #index + index.html.erb
+7. Edit and Destroy Recipes:
+	* #edit #update #destroy
+	* create edit.html.haml
+	* add to show.html.haml Edit and delete buttons
