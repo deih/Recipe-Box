@@ -15,3 +15,14 @@
 	* #edit #update #destroy
 	* create edit.html.haml
 	* add to show.html.haml Edit and delete buttons
+8. Bootstrap:
+	* 'bootstrap-sass'
+	* rename to aplication.css.scss
+	* add bootstrap sprockets and bootstrap
+9. Edit views/layouts/application :
+	* change to .html.haml
+	* change everything inside to haml
+10. Adding structure to application:
+	* creating navbar in application.html.haml
+		- adding bootstrap navbars/ul/li etc.
+11. Paperclip
