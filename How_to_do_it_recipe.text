@@ -25,4 +25,25 @@
 10. Adding structure to application:
 	* creating navbar in application.html.haml
 		- adding bootstrap navbars/ul/li etc.
-11. Paperclip
+11. Paperclip:
+	* add has_attached_file and validates to Recipe Model (check doc)
+	* add migration: rails g paperclip recipe image
+	* add image to _form / strong params in controller
+	* add image_tag to show.html.haml / index.html.haml
+12. Add structure to index page:
+	* using each_slice(n) and other stuff
+	* add styling that overwrite bootstrap
+13. Add the ability to have ingredients and directions for each recipes:
+	* gem Cocoon
+		- Gemfile
+		- //= require Cocoon (in application.js)
+		- Add accepts_nested_attr to recipe model
+		- Add strong params
+	* Add Ingredient model name:string recipe:belongs_to
+	* Add Direction model step:text recipe:belongs_to
+	* Add associations to recipe model
+	* Add validations (presence on all strong params)
+	* Add forms in _form and create partials (check for it in repo) HARD ONE!!!
+	* Add Ingedients and Directions to show.html.haml
+14. Add users:
+	* devise gem
