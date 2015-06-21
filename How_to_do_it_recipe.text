@@ -47,3 +47,11 @@
 	* Add Ingedients and Directions to show.html.haml
 14. Add users:
 	* devise gem
+		- add association between user and recipe
+		- connect recipe to user when create new recipe (change recipes#new recipes#create with BUILD)
+	* Views:
+		- add 'submited by email' to show.html.haml
+		- edit sign in/sign out/delete/edit buttons
+		- Edit sign up and sign in pages (styling)
+	* Authenticate:
+		- add before_action
